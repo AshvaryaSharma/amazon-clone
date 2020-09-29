@@ -1,0 +1,42 @@
+.checkout__productList {
+    display: flex;
+    margin: 2%;
+    padding: 1%;
+    border: 1px solid #e4e4e4;
+}
+
+.checkout__productImage {
+    max-width: 30%;
+    padding: 2%;
+    object-fit: contain;
+    width: auto;
+}
+
+.checkpout__productInfo {
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+}
+
+.checkout__productTitle {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+.checkout__productPrice {
+    margin-bottom: 5%;
+}
+
+.checkout__productRating {
+    margin-bottom: 5%;
+    color: #febd69;
+}
+
+.checkout__RemoveBasket {
+   
+    height: 25px;
+    background-color: #febd69;
+    border-radius: 5px;
+    border: 1px solid #febd69;
+}

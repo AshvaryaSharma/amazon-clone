@@ -1,0 +1,92 @@
+.header {
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+
+.header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+
+}
+
+.header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 40%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.header__searchIcon {
+    height: 12px;
+    padding: 4px;
+    background-color: #febd69;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.header__nav {
+    margin-left: 2%;
+    display: flex;
+    justify-content: left;
+    
+    width: 40%;
+}
+
+.header__option {
+    color: #fff;
+    justify-items: space-evenly;
+    padding: 0 2%;
+   display: flex;
+   flex-direction: column;
+    margin-right: 2%;
+}
+
+.header__optionLineOne {
+    
+    text-align: center;
+    overflow: hidden;
+    min-width: max-content;
+}
+
+.header__optionLineTwo {
+    
+    font-weight: 900;
+    text-align: center;
+    min-width: max-content;
+}
+
+.header__cart {
+    color: #fff;
+    font-size: large;
+    width: 10%;
+}
+
+.header__cart span {
+    font-weight: 900;
+}
+
+.header__cart a:link,
+.header__cart a:visited
+{
+    color: #fff;
+    text-decoration: none;;
+}
+
+.header__cart a:hover,
+.header__cart a:active
+{
+    color: #fff;
+    padding-bottom: 5px;
+    text-decoration: none;;
+    border-bottom: 2px solid #ffffff;
+}
