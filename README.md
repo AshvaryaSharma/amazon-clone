@@ -1,3 +1,5 @@
+The clone is hosted at https://clone-webapp-c17f3.web.app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
